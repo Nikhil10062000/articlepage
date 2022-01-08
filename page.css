@@ -1,0 +1,30 @@
+body{
+    border:0.5px solid;
+}
+section{
+    padding: 1cm;
+    background-color: lightgray;
+    border: solid;
+    margin: 60px;
+}
+h1{
+    text-align: center;
+    padding-bottom: 2cm;
+}
+.emoji
+{
+    color: red;
+}
+.p::first-letter{
+    
+    font-size: 1.5cm;
+}
+h1:hover{
+    color: orangered;
+}
+input[type="checkbox"]:checked+div {
+    color: orangered;
+}
+div{
+    color: lightgray;
+}
